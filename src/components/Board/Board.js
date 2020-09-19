@@ -3,7 +3,7 @@ import './Board.css';
 import Tile from '../Tile'
 
 const Board = (props) => {
-  tiles = this.props.tiles.map((tile)=>(
+  let tiles = props.tiles.map((tile)=>(
     <Tile {...tile} />
   ))
 
