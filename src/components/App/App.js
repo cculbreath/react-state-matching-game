@@ -17,14 +17,14 @@ class App extends Component{
 
   }
   startGame = (numTiles) => {
-    this.setState((state)=>({
+    this.setState((state)=>(
       {
+    
         playing: false,
         previousTileIndex: null,
         toBeCleared: null,
         tiles: createTiles(this.props.numTiles)
   
-    }
     }))
   }
 
